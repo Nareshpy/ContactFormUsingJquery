@@ -1,0 +1,47 @@
+form{
+    width:70%;
+    margin: auto;
+    margin-top:10px;
+    font-weight:500;
+}
+#alertMsg{
+    color:red;
+    font-weight:500;
+}
+.row{
+margin-bottom:1%;
+}
+.form-control{
+    border-radius:0px;
+    box-shadow: -2px -2px rgb(97, 93, 93);
+}
+.mandatory{
+    color: red;
+    display: inline;
+}
+#aboutOrganisation,#me{
+    width:65%;
+    box-shadow: -2px -2px  rgb(97, 93, 93);
+}
+.btn{
+    background-color: rgb(192, 189, 189);
+    box-shadow: -2px -2px  rgb(97, 93, 93);
+    border-radius:0px;
+}
+.btn:hover{
+    background-color: black;
+    color: white;
+}
+.blank{
+    color: red;
+}
+textarea{
+    overflow-y: scroll;
+    resize: none;
+    height:100px;
+}
+select{
+    border-radius: 0px;
+    -webkit-appearance :listbox !important;
+    color: gray;
+}
